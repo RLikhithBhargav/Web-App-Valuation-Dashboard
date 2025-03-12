@@ -1,0 +1,251 @@
+{
+    "Capital_Expenditure_Depreciation": {
+        "Capital Expenditure & Depreciation Assumptions": {
+            "Depreciation Method": "Straight-line",
+            "Technology Infrastructure": {
+                "Servers and Data Centers": {
+                    "Useful Life in months": "C84",
+                    "CapEx": "D84"
+                },
+                "Networking Equipment": {
+                    "Useful Life in months": "C85",
+                    "CapEx": "D85"
+                }
+            },
+            "Software and Licenses": {
+                "Enterprise Software": {
+                    "Useful Life in months": "C87",
+                    "CapEx": "D87"
+                },
+                "Software Licenses": {
+                    "Useful Life in months": "C88",
+                    "CapEx": "D88"
+                }
+            },
+            "Hardware": {
+                "Computers and Workstations": {
+                    "Useful Life in months": "C90",
+                    "CapEx": "D90"
+                },
+                "Storage Devices": {
+                    "Useful Life in months": "C91",
+                    "CapEx": "D91"
+                }
+            },
+            "Development Costs": {
+                "Product Development": {
+                    "Useful Life in months": "C93",
+                    "CapEx": "D93"
+                },
+                "Research and Development": {
+                    "Useful Life in months": "C94",
+                    "CapEx": "D94"
+                }
+            },
+            "Intellectual Property": {
+                "Patents and Trademarks": {
+                    "Useful Life in months": "C96",
+                    "CapEx": "D96"
+                },
+                "Proprietary Technology": {
+                    "Useful Life in months": "C97",
+                    "CapEx": "D97"
+                }
+            },
+            "Cloud Services": {
+                "Long-term Cloud Contracts": {
+                    "Useful Life in months": "C99",
+                    "CapEx": "D99"
+                }
+            },
+            "Security": {
+                "Cybersecurity Infrastructure": {
+                    "Useful Life in months": "C101",
+                    "CapEx": "D101"
+                }
+            }
+        }
+    },
+    "COGS": {
+        "COGS Assumptions": {
+            "Hosting and Infrastructure": "C55",
+            "Development and Maintenance": "C56",
+            "Customer Support": {
+                "Active users per agent": "C58",
+                "Avg comp per agent per month": "C59"
+            },
+            "Content Licensing": "C60",
+            "Platform fees": "C61",
+            "Payment Processing Fees": {
+                "Credit Card": {
+                    "percent of transactions": "C63",
+                    "percent of revenue": "D63"
+                },
+                "PayPal": {
+                    "percent of transactions": "C64",
+                    "percent of revenue": "D64"
+                },
+                "Square": {
+                    "percent of transactions": "C65",
+                    "percent of revenue": "D65"
+                },
+                "Stripe": {
+                    "percent of transactions": "C66",
+                    "percent of revenue": "D66"
+                }
+            }
+        }
+    },
+    "Everything_Else": {
+        "Long Term Debt Assumptions": {
+            "Beginning Debt Level as (2023) in $": "C105",
+            "Long Term Lease, Level": "C106",
+            "Long Term Debt Growth Rate": "C107",
+            "Interest rate on long term debt": "C108",
+            "Long Term Debt Repayment During forecast period": "C109",
+            "Tax rate assumed in cost of capital": "C110",
+            "Dividend Payout Ratio": "C111"
+        },
+        "Working Capital Assumptions": {
+            "percent of revenue": {
+                "Cash and ST Investments": "C115",
+                "Accounts Receivable": "C116",
+                "Inventory": "C117",
+                "Other Current Assets": "C118"
+            },
+            "Percent of COGS": {
+                "Accounts Payable": "C119",
+                "Accrued Expenses": "C120"
+            },
+            "As a percent of total debt": {
+                "Current portion LT debt": "C121"
+            },
+            "As a percent of total liabilities": {
+                "Other Current Liabilites": "C122"
+            }
+        },
+        "Cost of Capital Assumptions": {
+            "Equity Beta": "C126",
+            "Risk Free Rate": "C127",
+            "Market Risk Premium": "C128",
+            "Cost of Equity": "C129",
+            "Weighted Cost of Debt": "C130"
+        },
+        "Capital Structure": {
+            "Market Value of Equity": 10000000,
+            "Market value of Debt": 5000000,
+            "Value of Firm": 15000000,
+            "E/V": 0.67,
+            "D/V": 0.33,
+            "WACC": 0.093
+        },
+        "Sustainable Growth Rate Assumptions": {
+            "Terminal growth rate (inflation +gdp)": "C142"
+        },
+        "Total Number of Shares Outstanding": "C144"
+    },
+    "Expenses": {
+        "Expenses Assumptions": {
+            "R&D monthly expense": "C70",
+            "General & Admin expense percent of revenue": "C71",
+            "Office Space monthly expense": "C72",
+            "Office Space expense annual growth rate": "C73",
+            "Sales & Marketing": {
+                "Fixed": "C75",
+                "Variable": "C76"
+            },
+            "Technology and Infrastructure percent revenue": "C77",
+            "Other Operating Expenses percent of revenue": "C78"
+        }
+    },
+    "KPI": {
+        "KPI Assumptions": {
+            "Organic Downloads": {
+                "mean": "C5",
+                "Stdev": "C6",
+                "Growth rate": "C7"
+            },
+            "Paid Downloads": {
+                "mean": "C9",
+                "Stdev": "C10",
+                "Growth rate": "C11"
+            },
+            "Retention Rate": {
+                "Mean": "C13",
+                "Stdev": "C14"
+            }
+        }
+    },
+    "Revenue": {
+        "Revenue Assumptions": {
+            "Licensing": {
+                "Price of the App": "C18"
+            },
+            "Subscription": {
+                "Monthly Plan": {
+                    "Avg Revenue/user/month": "C22",
+                    "Avg Conversion Rate": "D22",
+                    "Std Conversion Rate": "E22"
+                },
+                "Annual Plan": {
+                    "Avg Revenue/user/month": "C23",
+                    "Avg Conversion Rate": "D23",
+                    "Std Conversion Rate": "E23"
+                },
+                "No Plan": {
+                    "Avg Revenue per user per month": "C24",
+                    "Avg Conversion Rate": "D24",
+                    "Std Conversion Rate": "E24"
+                }
+            },
+            "In-App Purchase": {
+                "Item-1": {
+                    "Price": "C28",
+                    "Avg Conversion Rate": "D28",
+                    "Std Conversion Rate": "E28",
+                    "Average repeated times": "F28"
+                },
+                "Item-2": {
+                    "Price": "C29",
+                    "Avg Conversion Rate": "D29",
+                    "Std Conversion Rate": "E29",
+                    "Average repeated times": "F29"
+                },
+                "Item-3": {
+                    "Price": "C30",
+                    "Avg Conversion Rate": "D30",
+                    "Std Conversion Rate": "E30",
+                    "Average repeated times": "F30"
+                },
+                "Item-4": {
+                    "Price": "C31",
+                    "Avg Conversion Rate": "D31",
+                    "Std Conversion Rate": "E31",
+                    "Average repeated times": "F31"
+                }
+            },
+            "Advertisement": {
+                "Impressions": {
+                    "Avg": "C35",
+                    "Stdev": "C36",
+                    "Avg Conversion rate": "D35",
+                    "Std Conversion rate": "E35"
+                },
+                "Click-Through Rate": {
+                    "Avg": "C38",
+                    "Std": "C39"
+                },
+                "Revenue/Cost per click": "C40"
+            },
+            "Commission": {
+                "Transactions": {
+                    "Avg": "C44",
+                    "Std": "C45",
+                    "Growth rate": "C46",
+                    "Avg Rev per transaction": "C47"
+                },
+                "Commission rate": "C50"
+            }
+        }
+    }
+}

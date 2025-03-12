@@ -1,0 +1,251 @@
+{
+    "Capital_Expenditure_Depreciation": {
+        "Capital Expenditure & Depreciation Assumptions": {
+            "Depreciation Method": "Straight-line",
+            "Technology Infrastructure": {
+                "Servers and Data Centers": {
+                    "Useful Life in months": 60,
+                    "CapEx": 0.03
+                },
+                "Networking Equipment": {
+                    "Useful Life in months": 60,
+                    "CapEx": 0.01
+                }
+            },
+            "Software and Licenses": {
+                "Enterprise Software": {
+                    "Useful Life in months": 120,
+                    "CapEx": 0.02
+                },
+                "Software Licenses": {
+                    "Useful Life in months": 60,
+                    "CapEx": 0.01
+                }
+            },
+            "Hardware": {
+                "Computers and Workstations": {
+                    "Useful Life in months": 60,
+                    "CapEx": 0.01
+                },
+                "Storage Devices": {
+                    "Useful Life in months": 60,
+                    "CapEx": 0.02
+                }
+            },
+            "Development Costs": {
+                "Product Development": {
+                    "Useful Life in months": 60,
+                    "CapEx": 0.05
+                },
+                "Research and Development": {
+                    "Useful Life in months": 60,
+                    "CapEx": 0.02
+                }
+            },
+            "Intellectual Property": {
+                "Patents and Trademarks": {
+                    "Useful Life in months": 240,
+                    "CapEx": 0.005
+                },
+                "Proprietary Technology": {
+                    "Useful Life in months": 120,
+                    "CapEx": 0.02
+                }
+            },
+            "Cloud Services": {
+                "Long-term Cloud Contracts": {
+                    "Useful Life in months": 60,
+                    "CapEx": 0.03
+                }
+            },
+            "Security": {
+                "Cybersecurity Infrastructure": {
+                    "Useful Life in months": 60,
+                    "CapEx": 0.02
+                }
+            }
+        }
+    },
+    "COGS": {
+        "COGS Assumptions": {
+            "Hosting and Infrastructure": 0.03,
+            "Development and Maintenance": 0.15,
+            "Customer Support": {
+                "Active users per agent": 500,
+                "Avg comp per agent per month": 2000
+            },
+            "Content Licensing": 0.01,
+            "Platform fees": 0.3,
+            "Payment Processing Fees": {
+                "Credit Card": {
+                    "percent of transactions": 0.55,
+                    "percent of revenue": 0.015
+                },
+                "PayPal": {
+                    "percent of transactions": 0.3,
+                    "percent of revenue": 0.0349
+                },
+                "Square": {
+                    "percent of transactions": 0.1,
+                    "percent of revenue": 0.029
+                },
+                "Stripe": {
+                    "percent of transactions": 0.05,
+                    "percent of revenue": 0.029
+                }
+            }
+        }
+    },
+    "Everything_Else": {
+        "Long Term Debt Assumptions": {
+            "Beginning Debt Level as (2023) in $": 5000000,
+            "Long Term Lease, Level": 500,
+            "Long Term Debt Growth Rate": 0.02,
+            "Interest rate on long term debt": 0.04,
+            "Long Term Debt Repayment During forecast period": 0.085,
+            "Tax rate assumed in cost of capital": 0.21,
+            "Dividend Payout Ratio": 0.4
+        },
+        "Working Capital Assumptions": {
+            "percent of revenue": {
+                "Cash and ST Investments": 0.05,
+                "Accounts Receivable": 0.1,
+                "Inventory": 0.005,
+                "Other Current Assets": 0.02
+            },
+            "Percent of COGS": {
+                "Accounts Payable": 0.06,
+                "Accrued Expenses": 0.05
+            },
+            "As a percent of total debt": {
+                "Current portion LT debt": 0.01
+            },
+            "As a percent of total liabilities": {
+                "Other Current Liabilites": 0.025
+            }
+        },
+        "Cost of Capital Assumptions": {
+            "Equity Beta": 1.2,
+            "Risk Free Rate": 0.0472,
+            "Market Risk Premium": 0.06,
+            "Cost of Equity": 0.119,
+            "Weighted Cost of Debt": 0.04
+        },
+        "Capital Structure": {
+            "Market Value of Equity": 10000000,
+            "Market value of Debt": 5000000,
+            "Value of Firm": 15000000,
+            "E/V": 0.67,
+            "D/V": 0.33,
+            "WACC": 0.093
+        },
+        "Sustainable Growth Rate Assumptions": {
+            "Terminal growth rate (inflation +gdp)": 0.04
+        },
+        "Total Number of Shares Outstanding": 1000000
+    },
+    "Expenses": {
+        "Expenses Assumptions": {
+            "R&D monthly expense": 2000,
+            "General & Admin expense percent of revenue": 0.05,
+            "Office Space monthly expense": 10000,
+            "Office Space expense annual growth rate": 0.02,
+            "Sales & Marketing": {
+                "Fixed": 5000,
+                "Variable": 1.0
+            },
+            "Technology and Infrastructure percent revenue": 0.1,
+            "Other Operating Expenses percent of revenue": 0.01
+        }
+    },
+    "KPI": {
+        "KPI Assumptions": {
+            "Organic Downloads": {
+                "mean": 10000,
+                "Stdev": 1000,
+                "Growth rate": 0.02
+            },
+            "Paid Downloads": {
+                "mean": 5000,
+                "Stdev": 100,
+                "Growth rate": 0.02
+            },
+            "Retention Rate": {
+                "Mean": 0.5,
+                "Stdev": 0.1
+            }
+        }
+    },
+    "Revenue": {
+        "Revenue Assumptions": {
+            "Licensing": {
+                "Price of the App": 1.99
+            },
+            "Subscription": {
+                "Monthly Plan": {
+                    "Avg Revenue/user/month": 10.99,
+                    "Avg Conversion Rate": 0.3,
+                    "Std Conversion Rate": 0.1
+                },
+                "Annual Plan": {
+                    "Avg Revenue/user/month": 8.33,
+                    "Avg Conversion Rate": 0.3,
+                    "Std Conversion Rate": 0.1
+                },
+                "No Plan": {
+                    "Avg Revenue per user per month": 10.99,
+                    "Avg Conversion Rate": 0,
+                    "Std Conversion Rate": 0
+                }
+            },
+            "In-App Purchase": {
+                "Item-1": {
+                    "Price": 4.99,
+                    "Avg Conversion Rate": 0.4,
+                    "Std Conversion Rate": 0.1,
+                    "Average repeated times": 1.5
+                },
+                "Item-2": {
+                    "Price": 9.9,
+                    "Avg Conversion Rate": 0.3,
+                    "Std Conversion Rate": 0.1,
+                    "Average repeated times": 1.0
+                },
+                "Item-3": {
+                    "Price": 19.99,
+                    "Avg Conversion Rate": 0.2,
+                    "Std Conversion Rate": 0.1,
+                    "Average repeated times": 2.0
+                },
+                "Item-4": {
+                    "Price": 29.99,
+                    "Avg Conversion Rate": 0.1,
+                    "Std Conversion Rate": 0.1,
+                    "Average repeated times": 1.0
+                }
+            },
+            "Advertisement": {
+                "Impressions": {
+                    "Avg": 10000,
+                    "Stdev": 1000,
+                    "Avg Conversion rate": 0.2,
+                    "Std Conversion rate": 0.1
+                },
+                "Click-Through Rate": {
+                    "Avg": 0.25,
+                    "Std": 0.005
+                },
+                "Revenue/Cost per click": 0.7
+            },
+            "Commission": {
+                "Transactions": {
+                    "Avg": 100,
+                    "Std": 0.1,
+                    "Growth rate": 0.05,
+                    "Avg Rev per transaction": 100
+                },
+                "Commission rate": 0.2
+            }
+        }
+    }
+}
