@@ -22,8 +22,6 @@ An interactive Dash dashboard for building, projecting, and valuing web-app fina
 6. [Customizing Ranges](#customizing-ranges)
 7. [Performance & Caching](#performance--caching)
 8. [Dependencies](#dependencies)
-9. [Contributing](#contributing)
-10. [License](#license)
 
 ---
 
